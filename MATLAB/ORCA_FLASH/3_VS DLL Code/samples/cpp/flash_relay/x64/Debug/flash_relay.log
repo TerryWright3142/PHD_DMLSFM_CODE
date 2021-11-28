@@ -1,0 +1,10 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  stdafx.cpp
+  dllmain.cpp
+  flash_relay.cpp
+c:\users\bhfuser\desktop\terry_matlab_equipment_code\orca_flash\3_vs dll code\samples\cpp\misc\console4.h(78): warning C4005: '_T': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\tchar.h(2427): note: see previous definition of '_T'
+  support.cpp
+  Generating Code...
+     Creating library C:\Users\BHFuser\Desktop\Terry_Matlab_Equipment_Code\ORCA_FLASH\3_VS DLL Code\samples\cpp\init_uninit\x64\Debug\..\..\..\..\..\..\2_RELAY DLL For Debugging\FLASHRELAY.lib and object C:\Users\BHFuser\Desktop\Terry_Matlab_Equipment_Code\ORCA_FLASH\3_VS DLL Code\samples\cpp\init_uninit\x64\Debug\..\..\..\..\..\..\2_RELAY DLL For Debugging\FLASHRELAY.exp
+  flash_relay.vcxproj -> C:\Users\BHFuser\Desktop\Terry_Matlab_Equipment_Code\ORCA_FLASH\3_VS DLL Code\samples\cpp\init_uninit\x64\Debug\..\..\..\..\..\..\2_RELAY DLL For Debugging\FLASHRELAY.dll

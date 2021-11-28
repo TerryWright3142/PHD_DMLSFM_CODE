@@ -1,0 +1,405 @@
+﻿  init_uninit.cpp
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(544): error C3646: 'Data1': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(544): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(553): error C3646: 'size': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(553): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(554): error C3646: 'iDeviceCount': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(554): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(555): error C3646: 'reserved': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(555): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(556): error C3646: 'initoptionbytes': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(556): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(557): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(557): error C2143: syntax error: missing ';' before '*'
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(557): error C2238: unexpected token(s) preceding ';'
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(564): error C3646: 'size': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(564): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(565): error C3646: 'index': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(565): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(572): error C3646: 'size': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(572): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(573): error C3646: 'domain': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(573): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(574): error C3646: 'capflag': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(574): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(575): error C3646: 'kind': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(575): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(586): error C3646: 'linearpointmax': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(586): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(597): error C3646: 'horzunit': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(597): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(598): error C3646: 'vertunit': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(598): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(608): error C3646: 'supportproc': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(608): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(614): error C3646: 'size': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(614): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(615): error C3646: 'iString': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(615): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(617): error C3646: 'textbytes': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(617): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(623): error C3646: 'size': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(623): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(624): error C3646: 'iKind': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(624): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(625): error C3646: 'option': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(625): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(626): error C3646: 'reserved2': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(626): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(634): error C3646: 'option': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(634): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(635): error C3646: 'type': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(635): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(637): error C3646: 'datasize': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(637): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(638): error C3646: 'reserved': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(638): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(655): error C3646: 'type': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(655): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(656): error C3646: 'page': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(656): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(658): error C3646: 'datasize': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(658): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(659): error C3646: 'reserved': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(659): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(665): error C3646: 'lutin': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(665): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(666): error C3646: 'lutout': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(666): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(673): error C3646: 'cbSize': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(673): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(674): error C3646: 'iProp': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(674): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(675): error C3646: 'option': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(675): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(676): error C3646: 'iReserved1': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(676): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(679): error C3646: 'attribute': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(679): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(680): error C3646: 'iGroup': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(680): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(681): error C3646: 'iUnit': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(681): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(682): error C3646: 'attribute2': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(682): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(689): error C3646: 'nMaxChannel': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(689): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(690): error C3646: 'iReserved3': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(690): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(691): error C3646: 'nMaxView': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(691): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(693): error C3646: 'iProp_NumberOfElement': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(693): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(694): error C3646: 'iProp_ArrayBase': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(694): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(695): error C3646: 'iPropStep_Element': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(695): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(701): error C3646: 'cbSize': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(701): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(702): error C3646: 'iProp': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(702): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(705): error C3646: 'textbytes': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(705): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(711): error C3646: 'size': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(711): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(712): error C3646: 'iKind': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(712): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(714): error C3646: 'buffercount': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(714): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(720): error C3646: 'sec': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(720): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(721): error C3646: 'microsec': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(721): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(732): error C3646: 'size': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(732): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(733): error C3646: 'iKind': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(733): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(734): error C3646: 'option': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(734): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(735): error C3646: 'iFrame': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(735): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(737): error C3646: 'rowbytes': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(737): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(739): error C3646: 'width': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(739): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(740): error C3646: 'height': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(740): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(741): error C3646: 'left': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(741): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(742): error C3646: 'top': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(742): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(744): error C3646: 'framestamp': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(744): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(745): error C3646: 'camerastamp': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(745): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(756): error C3646: 'size': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(756): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(757): error C3646: 'iKind': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(757): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(758): error C3646: 'option': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(758): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(759): error C3646: 'iFrame': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(759): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(761): error C3646: 'rowbytes': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(761): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(763): error C3646: 'width': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(763): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(764): error C3646: 'height': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(764): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(765): error C3646: 'left': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(765): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(766): error C3646: 'top': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(766): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(768): error C3646: 'framestamp': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(768): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(769): error C3646: 'camerastamp': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(769): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(775): error C3646: 'size': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(775): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(776): error C3646: 'supportevent': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(776): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(784): error C3646: 'size': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(784): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(785): error C3646: 'eventhappened': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(785): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(786): error C3646: 'eventmask': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(786): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(787): error C3646: 'timeout': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(787): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(793): error C3646: 'size': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(793): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(794): error C3646: 'iKind': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(794): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(795): error C3646: 'nNewestFrameIndex': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(795): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(796): error C3646: 'nFrameCount': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(796): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(804): error C3646: 'size': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(804): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(805): error C3646: 'reserved': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(805): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(809): error C3646: 'maxframepersession': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(809): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(810): error C3646: 'userdatasize': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(810): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(811): error C3646: 'userdatasize_session': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(811): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(812): error C3646: 'userdatasize_file': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(812): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(813): error C3646: 'usertextsize': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(813): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(814): error C3646: 'usertextsize_session': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(814): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(815): error C3646: 'usertextsize_file': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(815): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(821): error C3646: 'size': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(821): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(822): error C3646: 'reserved': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(822): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(826): error C3646: 'maxframepersession': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(826): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(827): error C3646: 'userdatasize': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(827): fatal error C1003: error count exceeds 100; stopping compilation
+  common.cpp
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(544): error C3646: 'Data1': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(544): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(553): error C3646: 'size': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(553): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(554): error C3646: 'iDeviceCount': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(554): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(555): error C3646: 'reserved': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(555): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(556): error C3646: 'initoptionbytes': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(556): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(557): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(557): error C2143: syntax error: missing ';' before '*'
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(557): error C2238: unexpected token(s) preceding ';'
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(564): error C3646: 'size': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(564): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(565): error C3646: 'index': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(565): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(572): error C3646: 'size': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(572): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(573): error C3646: 'domain': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(573): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(574): error C3646: 'capflag': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(574): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(575): error C3646: 'kind': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(575): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(586): error C3646: 'linearpointmax': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(586): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(597): error C3646: 'horzunit': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(597): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(598): error C3646: 'vertunit': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(598): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(608): error C3646: 'supportproc': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(608): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(614): error C3646: 'size': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(614): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(615): error C3646: 'iString': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(615): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(617): error C3646: 'textbytes': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(617): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(623): error C3646: 'size': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(623): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(624): error C3646: 'iKind': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(624): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(625): error C3646: 'option': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(625): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(626): error C3646: 'reserved2': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(626): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(634): error C3646: 'option': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(634): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(635): error C3646: 'type': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(635): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(637): error C3646: 'datasize': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(637): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(638): error C3646: 'reserved': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(638): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(655): error C3646: 'type': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(655): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(656): error C3646: 'page': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(656): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(658): error C3646: 'datasize': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(658): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(659): error C3646: 'reserved': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(659): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(665): error C3646: 'lutin': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(665): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(666): error C3646: 'lutout': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(666): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(673): error C3646: 'cbSize': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(673): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(674): error C3646: 'iProp': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(674): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(675): error C3646: 'option': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(675): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(676): error C3646: 'iReserved1': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(676): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(679): error C3646: 'attribute': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(679): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(680): error C3646: 'iGroup': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(680): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(681): error C3646: 'iUnit': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(681): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(682): error C3646: 'attribute2': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(682): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(689): error C3646: 'nMaxChannel': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(689): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(690): error C3646: 'iReserved3': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(690): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(691): error C3646: 'nMaxView': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(691): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(693): error C3646: 'iProp_NumberOfElement': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(693): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(694): error C3646: 'iProp_ArrayBase': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(694): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(695): error C3646: 'iPropStep_Element': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(695): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(701): error C3646: 'cbSize': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(701): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(702): error C3646: 'iProp': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(702): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(705): error C3646: 'textbytes': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(705): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(711): error C3646: 'size': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(711): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(712): error C3646: 'iKind': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(712): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(714): error C3646: 'buffercount': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(714): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(720): error C3646: 'sec': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(720): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(721): error C3646: 'microsec': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(721): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(732): error C3646: 'size': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(732): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(733): error C3646: 'iKind': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(733): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(734): error C3646: 'option': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(734): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(735): error C3646: 'iFrame': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(735): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(737): error C3646: 'rowbytes': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(737): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(739): error C3646: 'width': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(739): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(740): error C3646: 'height': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(740): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(741): error C3646: 'left': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(741): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(742): error C3646: 'top': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(742): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(744): error C3646: 'framestamp': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(744): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(745): error C3646: 'camerastamp': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(745): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(756): error C3646: 'size': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(756): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(757): error C3646: 'iKind': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(757): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(758): error C3646: 'option': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(758): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(759): error C3646: 'iFrame': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(759): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(761): error C3646: 'rowbytes': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(761): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(763): error C3646: 'width': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(763): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(764): error C3646: 'height': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(764): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(765): error C3646: 'left': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(765): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(766): error C3646: 'top': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(766): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(768): error C3646: 'framestamp': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(768): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(769): error C3646: 'camerastamp': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(769): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(775): error C3646: 'size': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(775): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(776): error C3646: 'supportevent': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(776): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(784): error C3646: 'size': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(784): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(785): error C3646: 'eventhappened': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(785): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(786): error C3646: 'eventmask': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(786): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(787): error C3646: 'timeout': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(787): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(793): error C3646: 'size': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(793): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(794): error C3646: 'iKind': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(794): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(795): error C3646: 'nNewestFrameIndex': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(795): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(796): error C3646: 'nFrameCount': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(796): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(804): error C3646: 'size': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(804): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(805): error C3646: 'reserved': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(805): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(809): error C3646: 'maxframepersession': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(809): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(810): error C3646: 'userdatasize': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(810): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(811): error C3646: 'userdatasize_session': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(811): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(812): error C3646: 'userdatasize_file': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(812): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(813): error C3646: 'usertextsize': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(813): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(814): error C3646: 'usertextsize_session': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(814): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(815): error C3646: 'usertextsize_file': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(815): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(821): error C3646: 'size': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(821): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(822): error C3646: 'reserved': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(822): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(826): error C3646: 'maxframepersession': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(826): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(827): error C3646: 'userdatasize': unknown override specifier
+c:\users\bhfuser\desktop\dcamsdk4\inc\dcamapi4.h(827): fatal error C1003: error count exceeds 100; stopping compilation
+  Generating Code...

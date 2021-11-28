@@ -1,0 +1,283 @@
+%DMLSFM_OPTIMISATION_AND_EVALUATION_SLAVE
+%
+%
+% run the SLAVE after the MASTER has initialised
+addpath('.\ORCA_FLASH\4_Matlab');
+%include win_mutex.dll with useful Windows API functions
+dllFolder = '.\ORCA_FLASH\6_MUTEX DLL\';
+winDLL = 'win_mutex';
+headerFolder = '.\ORCA_FLASH\3_VS DLL Code\samples\cpp\init_uninit\win_mutex\';
+header = 'win_mutex.h';
+loadlibrary([dllFolder, winDLL], [headerFolder,  header], 'alias', winDLL);  
+libfunctions(winDLL);
+INFINITE           = hex2dec('FFFFFFF');
+%
+%open memory map for IPC with the MASTER
+mem_map = cMMap('test.dat');
+mem_map.OpenMap(); 
+%
+%
+szExp = '20.12.15_Zernike1'; % directory to store images
+szResults = [szExp '_' num2str(mem_map.zeroStageCorrection)]; % zeroStageCorrection was used when finding field curvature and is an additional displacement of the stage beyond the defocus being corrected
+mkdir(szResults);
+%initialise Flash
+flash = InitialiseFlash(mem_map);
+[~, im] = flash.CaptureImage(1); 
+imagesc(im);
+drawnow();
+%configure global exposure to prevent letter boxing
+bRollingShutter = false;
+ConfigureShutterFlash(flash, bRollingShutter);
+%configure input trigger from the DM
+ConfigureInputTriggerFlash(flash, mem_map);
+%INFORM MASTER THAT SLAVE RUNNING
+mem_map.Set_bSlaveRunning(1);
+%BOTH MASTER AND SLAVE RUNNING
+%
+%
+%
+%
+if ~mem_map.bEvaluate
+    while true
+disp('wait for the master');
+            while ~(mem_map.Get_slave_state==0)
+                pause(0.5);
+            end
+
+
+                flash.DCAM.dcamprop_setvalue(flash.hdcam, flash.DCAM.DCAM_IDPROP_TRIGGERDELAY,  mem_map.Get_pose_change_to_exposure_delay()/1000);
+                %CAPTURE OPTIMISATION IMAGES
+disp('capture optimisation images');
+tic();
+                num_frames = mem_map.num_optimise;
+                bGlobalExposure = true;
+                ConfigureOutputTriggerFlash(flash, bGlobalExposure); %led on
+                num_frames_neglect = 2;
+                [im, ~] = FlashAquireImages(flash, num_frames, num_frames_neglect, mem_map);
+toc()
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+disp('analyse optimisation images');
+tic();
+                %use the image with best image to find location of the
+                %pinholes and the background
+                r = 20; % magic value?
+                [imBack, points1] = FindPointsAndBackground(1,1,mem_map.cx, mem_map.cy, im(:,:,end));
+                stats_values = zeros(size(mem_map.x));
+                for f = 1:size(im,3)
+                   stats_values(f) = FindMeanStrehl(points1, mem_map.x0, mem_map.y0, mem_map.cx, mem_map.cy, r, im(:,:,f), imBack);                 
+                end
+                stats_values = stats_values/mem_map.psf_best_score;
+                xopt = FindOptimal(mem_map.x, stats_values);
+                mem_map.Set_xopt(xopt); %xopt has the optimal amount of amplitude
+                fprintf('XOPT = %d\n', xopt);
+                %
+                mem_map.Set_slave_state(1);
+toc()
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+disp('capture optimisal images');
+tic();
+                num_frames = mem_map.num_best;
+                bGlobalExposure = true; %led on
+                ConfigureOutputTriggerFlash(flash, bGlobalExposure);
+                num_frames_neglect = 2;
+                [im, flash_timestamps] = FlashAquireImages(flash, num_frames, num_frames_neglect, mem_map);
+toc()
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+disp('analyse optimal images');
+tic();
+                imagesc(im(:,:,end));
+                title(['max pix:' num2str(max(abs(im(:)))) ' bestscore:' num2str(mem_map.Get_cur_best_score()) ]);
+                drawnow();        
+                %FIND OPTIMAL STATISTIC
+                stats_values1 = zeros(1, size(im,3));
+                for f = 1:size(im,3)
+                    stats_values1(f) = FindMeanStrehl(points1,  mem_map.x0, mem_map.y0, mem_map.cx, mem_map.cy, r, im(:,:,f), imBack);                  
+                end
+                stats_values1 = stats_values1/mem_map.psf_best_score;
+                strehl_evaluation_mean = mean(stats_values1(4:end)); % first few images are bad due to odd behaviour of Flash
+                fprintf('14 strehl_evaluation_mean:%d, cur_best_score:%d\n', strehl_evaluation_mean, mem_map.Get_cur_best_score());
+                if strehl_evaluation_mean > mem_map.Get_cur_best_score() &&  strehl_evaluation_mean > 0 
+                    mem_map.Set_cur_best_score(strehl_evaluation_mean);
+                    fprintf('IMPROVED best_score:%d\n', mem_map.Get_cur_best_score());
+                    mem_map.Set_bImprovement(1); %show that there has been an improvement
+                end
+                mem_map.Set_slave_state(2);
+ toc()
+ disp('4. end');
+                         
+    end
+else
+        %%%%%EVALUATION
+    while true
+            disp('0. wait for the master');
+                while ~(mem_map.Get_slave_state==0)
+                    pause(0.5);
+                end
+            disp('0. end');
+            flash.DCAM.dcamprop_setvalue(flash.hdcam, flash.DCAM.DCAM_IDPROP_TRIGGERDELAY,  mem_map.Get_pose_change_to_exposure_delay()/1000);
+                     
+            disp('1. capture optimised images');
+            %FIND OPTIMAL IMAGES
+            num_frames = mem_map.num_evaluate;
+            bGlobalExposure = true; %led on
+            ConfigureOutputTriggerFlash(flash, bGlobalExposure);
+            num_frames_neglect = 2;
+            [im, flash_timestamps] = FlashAquireImages(flash, num_frames, num_frames_neglect, mem_map);
+            imm = im(:,:,end);
+            imagesc(imm);
+            title(['max pix:' num2str(max(abs(imm(:))))]);
+            drawnow();
+            disp('1. end');
+            %SAVE OPTIMAL IMAGES   
+            disp('2. save optimised images');
+                for f = 1 : size(im, 3)
+                    % only save the 20th image to save memory
+                    if f == 20
+                     imwrite(im(:,:,f), [szResults '/' num2str(mem_map.Get_current_defocus()) '_' num2str(f) '.tiff']);            
+                    end
+
+                end
+            disp('2. end');
+            
+            mem_map.Set_slave_state(2);
+            
+       
+    end  
+
+end
+
+
+    
+
+
+
+
+        %%
+flash.Shutdown();
+unloadlibrary(winDLL);
+disp('Shutdown');
+clear;
+
+
+%% ANALYSIS find Strehl maps
+for zeroCorrect = 0
+    szResults = ['20.12.15_Zernike1_0'];
+    %szResults1 = ['date=5_12_19__cleaned_new_US_gel_lt_2_hours.mat' num2str(zeroCorrect) '_Strehls_SLOW'];
+    szResults1 = ['20.12.15_Zernike1_0_Strehls'];
+    mkdir(szResults1);
+
+    %szResults = ['date=5_12_19__cleaned_new_US_gel_lt_2_hours.mat' '_' num2str(zeroCorrect)];  
+
+    disp(szResults);
+    defocuses = 50:-10:-50;
+    strehl_max = zeros(2048,2048);
+
+    cnt = 1;
+
+    def_cnt = 1;
+    for def = defocuses 
+
+    m_th = 40*100/180*200/200;
+    %for the brightest and most in focus frame
+
+    ff = 20; 
+    sz = [szResults '/' num2str(def) '_' num2str(ff) '.tiff'];
+    im = imread(sz);
+
+    se = strel('disk',25);
+    imBack = imopen(im, se);
+    im1 = double(im) - double(imBack);
+    bw = imbinarize(im1, 2*mean(imBack(:)));
+    bw = imdilate(bw, strel('disk',8));
+    bw = bwareaopen(bw,10); %remove < 50 pixels
+    imagesc(bw);
+    cc = bwconncomp(bw,4);
+    S = regionprops(cc, 'Centroid');
+    points = cat(1,S.Centroid);
+    num = size(points,1);
+
+
+    dist_th = m_th*20/6.5;
+    dist = 0;
+    cnt_d = 0;
+    for i = 1:num
+    for j = 1:(i-1)
+        r = sqrt( (points(i,1) - points(j,1))^2 + (points(i,2) - points(j,2))^2);
+
+        if abs(r - dist_th) < 10
+            dist = dist + r;
+            cnt_d = cnt_d + 1;
+
+        end
+
+
+    end
+    end
+
+    dist = dist/cnt_d;
+
+    m = dist*6.5/20;
+    fov = sqrt(2)*2048*6.5/m;
+
+    % KMEANS TO FIND POINTS
+    back_thresh =500;  
+    d = round(dist/2);
+    cluster_spacing = d ;
+    points = FindMeans(im, cluster_spacing, back_thresh);
+    points = points(2:end,:);
+    plot(points(:,2), points(:,1), 'o');
+    drawnow();
+
+    %
+    backgroundAnnulusWidth = 5;
+    inclusionRadius = dist/2;  %this is then magnification invariant
+    % pins = CPinholeAnalysis(0.625, 0.85, m, 31.5*6.5, 0.1, 31.5*6.5, 0.1, 0.5, false);
+    pins = CPinholeAnalysis(0.625, 0.75, m, 31.5*6.5, 0.1, 31.5*6.5, 0.1, 0.5, false); %%% reduced NA due to DM
+    pins.SetSensor(6.5, 6.5, 0, 0);
+    pins.DrawSensor();
+    score = StrehlScore(inclusionRadius);
+    psf_best_score = pins.ApplyStatistic(score);
+
+    imVoron = VoronoiFull(2048,2048, points, inclusionRadius);
+    strehl_by_points = zeros(numel(defocuses), size(points,1));
+
+
+
+
+
+    ff = 20; 
+    sz = [szResults '/' num2str(def) '_' num2str(ff) '.tiff'];
+    im = imread(sz);        
+    points_bk = FindAnnularBckg(im, points, d, d+backgroundAnnulusWidth);
+
+    [immm, stats] = VoronoiApplyStatisticNew(im, points, points_bk, imVoron);
+    strehl = immm/psf_best_score;
+    strehl_by_points(cnt,:) = stats(:,1)/psf_best_score;
+
+
+    hhh = size(im,1);
+    www = size(im,2);
+    imagesc(strehl);
+    caxis([0,1]);
+    colormap hot;
+    set(gca,'XTick',[], 'YTick', [])
+    drawnow();
+    save([szResults  '/strehl_' num2str(def)  '.mat'], 'strehl');
+    saveas(gcf,[szResults1 '/' num2str(def_cnt)  '_' num2str(2*zeroCorrect+9) '_strehl.bmp']); 
+    %def_cnt = def_cnt + 1;
+    imm = im((hhh/2 - 50):(hhh/2 + 50), (www/2-50):(www/2+50));
+    imagesc(imm);
+    set(gca,'XTick',[], 'YTick', [])
+    colormap gray;
+    drawnow();
+    saveas(gcf,[szResults1 '/' num2str(def_cnt)  '_' num2str(2*zeroCorrect+9) '_intensity.bmp']); 
+    def_cnt = def_cnt + 1;
+    cnt = cnt + 1;
+
+    end
+
+    save([szResults '/strehl_by_points.mat'], 'strehl_by_points');
+    save([szResults '/points.mat'], 'points');
+end
+
+

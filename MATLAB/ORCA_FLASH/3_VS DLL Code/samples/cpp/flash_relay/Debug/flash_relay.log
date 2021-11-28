@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  flash_relay.cpp
+c:\users\bhfuser\desktop\terry_matlab_equipment_code\orca_flash\3_vs dll code\samples\cpp\misc\console4.h(78): warning C4005: '_T': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\tchar.h(2427): note: see previous definition of '_T'
+  support.cpp
+  Generating Code...
+     Creating library C:\Users\BHFuser\Desktop\Terry_Matlab_Equipment_Code\ORCA_FLASH\3_VS DLL Code\samples\cpp\init_uninit\Debug\FLASHRELAY.lib and object C:\Users\BHFuser\Desktop\Terry_Matlab_Equipment_Code\ORCA_FLASH\3_VS DLL Code\samples\cpp\init_uninit\Debug\FLASHRELAY.exp
+  flash_relay.vcxproj -> C:\Users\BHFuser\Desktop\Terry_Matlab_Equipment_Code\ORCA_FLASH\3_VS DLL Code\samples\cpp\init_uninit\Debug\FLASHRELAY.dll

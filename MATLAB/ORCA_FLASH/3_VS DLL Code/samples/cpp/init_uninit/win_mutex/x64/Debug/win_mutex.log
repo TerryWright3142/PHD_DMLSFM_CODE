@@ -1,0 +1,10 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  stdafx.cpp
+c:\users\bhfuser\desktop\terry_matlab_equipment_code\orca_flash\3_vs dll code\samples\cpp\init_uninit\win_mutex\stdafx.cpp(47): warning C4244: 'argument': conversion from 'int' to 'Gdiplus::REAL', possible loss of data
+c:\users\bhfuser\desktop\terry_matlab_equipment_code\orca_flash\3_vs dll code\samples\cpp\init_uninit\win_mutex\stdafx.cpp(48): warning C4244: 'argument': conversion from 'int' to 'Gdiplus::REAL', possible loss of data
+  support.cpp
+  dllmain.cpp
+  win_mutex.cpp
+  Generating Code...
+     Creating library C:\Users\BHFuser\Desktop\Terry_Matlab_Equipment_Code\ORCA_FLASH\3_VS DLL Code\samples\cpp\init_uninit\x64\Debug\..\..\..\..\..\..\6_MUTEX DLL\win_mutex.lib and object C:\Users\BHFuser\Desktop\Terry_Matlab_Equipment_Code\ORCA_FLASH\3_VS DLL Code\samples\cpp\init_uninit\x64\Debug\..\..\..\..\..\..\6_MUTEX DLL\win_mutex.exp
+  win_mutex.vcxproj -> C:\Users\BHFuser\Desktop\Terry_Matlab_Equipment_Code\ORCA_FLASH\3_VS DLL Code\samples\cpp\init_uninit\x64\Debug\..\..\..\..\..\..\6_MUTEX DLL\win_mutex.dll
